@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Number Baseball (No 0 Allowed)</title>
+    <style>
+      body {
+        font-family: Arial;
+        padding: 20px;
+      }
+      input[type="text"] {
+        width: 80px;
+        text-align: center;
+      }
+      .result {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>4자리수 야구게임</h1>
+    <p>4자리수를 구해보세요(0은 없고, 중복된 수도 없습니다)</p>
+    <input type="text" id="guess" maxlength="4" />
+    <button onclick="checkGuess()">Submit</button>
+    <div class="result" id="result"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

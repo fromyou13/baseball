@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "HakgyoansimDunggeunmisoTTF-B";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimDunggeunmisoTTF-B.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 탑버튼 스타일 */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* 기본적으로 숨김 */
+  z-index: 1000;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  background-color: #00ff0da6;
+  color: rgba(0, 0, 0, 0.795);
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#scrollTopBtn:hover {
+  background-color: rgba(5, 73, 20, 0.616);
+}
+/* 네비게이션 바 */
+.topnav {
+  display: flex;
+  justify-content: space-between; /* 좌우 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  background-color: #ffffff;
+  width: 100%;
+  padding: 15px 20px;
+  margin-top: 15px;
+  position: sticky;
+  top: 0;
+  font-family: "HakgyoansimDunggeunmisoTTF-B";
+}
+
+/* 로고 스타일 */
+.logo {
+  color: rgb(2, 0, 0);
+  font-size: 27px;
+  font-weight: bold;
+  padding-left: 300px;
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-links {
+  display: flex;
+  margin-right: 270px;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: rgb(0, 0, 0);
+  font-size: 29px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  color: rgb(8, 228, 1);
+  border-radius: 5px;
+}
+
+.nav-links .active {
+  color: rgb(8, 228, 1);
+  border-radius: 5px;
+}
+
+/* 네비게이션 바 관련 끝 */
+
+.box {
+  border: 5px solid red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: rgba(231, 152, 4, 0.904);
+}

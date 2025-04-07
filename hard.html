@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Number Baseball Game (3 & 5 Digits)</title>
+    <style>
+      body {
+        font-family: Arial;
+        padding: 20px;
+      }
+      input[type="text"] {
+        width: 80px;
+        text-align: center;
+      }
+      .result {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>5자리수 야구 게임</h1>
+    <p>5자리수를 구해보세요(0은 없고, 중복된 수도 없습니다)</p>
+    <input type="text" id="guess5" maxlength="5" />
+    <button onclick="checkGuess5()">Submit</button>
+    <div class="result" id="result5"></div>
+
+    <script src="main5.js"></script>
+  </body>
+</html>
